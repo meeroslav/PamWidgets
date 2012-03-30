@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+	<meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/jquery.mobile-1.0.1.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/PamGraphWidget.css" type="text/css" />
+    <link rel="stylesheet" href="css/AdviceWidget.css" type="text/css" />
+    <link rel="stylesheet" href="css/CurrentValueWidget.css" type="text/css" />
+    <link rel="stylesheet" href="css/Holder.css" type="text/css" />
+
+	<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="css/ipad.css" type="text/css" />
+	<link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="css/iphone.css" type="text/css" />
+
+	<script type="text/javascript" charset="utf-8" src="script/cordova-1.5.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/jquery.mobile-1.0.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/translations_EN.js"></script>
+    <script type="text/javascript" charset="utf-8" src="PamUI/PamUI.nocache.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/application.js"></script>
+  </head>
+  <body onload="onBodyLoad()">
+    <div data-role="page" id="graph" data-title="Pam Graph">
+        <div data-role="content" id="graphFrame"></div>
+        <div data-role="footer" data-position="fixed">
+            <a href="#graph" class="ui-btn-active" data-icon="graph" data-iconpos="top">
+                Pam Graph
+            </a>
+            <a href="#activities" data-transition="slide" data-icon="chat" data-iconpos="top">
+                Pam Advice
+            </a>
+            <a href="#settings" data-transition="slide" data-icon="settings" data-iconpos="top">
+                Settings
+            </a>
+        </div>
+    </div>
+
+    <div data-role="page" id="activities"  data-title="Pam Advice">
+        <div data-role="content" id="adviceFrame"></div>
+        <div data-role="footer" data-position="fixed">
+            <a href="#graph" data-transition="slide" data-direction="reverse" data-icon="graph" data-iconpos="top">
+                Pam Graph
+            </a>
+            <a href="#activities" class="ui-btn-active" data-icon="chat" data-iconpos="top">
+                Pam Advice
+            </a>
+            <a href="#settings" data-transition="slide" data-icon="settings" data-iconpos="top">
+                Settings
+            </a>
+        </div>
+    </div>
+
+    <div data-role="page" id="settings"  data-title="Pam Settings" data-add-back-btn="true">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h1>Pam Settings</h1>
+        </div>
+        <div data-role="content">
+            <form action="" name="settings_form" id="settings_form">
+                <div data-content-theme="c">
+                    <h3>User account</h3>
+                    <div data-role="fieldcontain">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" id="username" value="" />
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" value="" />
+                    </div>
+                </div>
+                <a onclick="submitWithAjax()" data-role="button" data-theme="b">Save settings</a>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>

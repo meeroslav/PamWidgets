@@ -1,0 +1,17 @@
+#pamId, #otherPageId {
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+}
+
+#pamId .pamWidget, #otherPageId .pamWidget {
+    float: left;
+}
+
+.pamWidget .errorPanel {
+    background-color: Red;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+
+}

@@ -1,0 +1,64 @@
+.adviceWidget {
+    color: white;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-shadow: 0 -1px -1px #666666;
+}
+
+.adviceWidget .livingPanel,
+.adviceWidget .healthPanel,
+.adviceWidget .sportPanel,
+.adviceWidget .advicePanel {
+    background: #702127;
+	background: -moz-linear-gradient(top, #702127, #a32f39);
+    background: linear-gradient(top, #702127, #a32f39);
+    background: -o-linear-gradient(top, #702127, #a32f39);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #702127), color-stop(1, #a32f39));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#702127', endColorstr='#a32f39');
+    -moz-border-radius: 10px; /* FF1+ */
+    -webkit-border-radius: 10px; /* Saf3-4 */
+    border-radius: 10px; /* Opera 10.5, IE9, Saf5, Chrome */
+}
+
+.adviceWidget .livingPanel,
+.adviceWidget .healthPanel,
+.adviceWidget .sportPanel {
+    float: left;
+    margin-bottom: 15px;
+    min-width: 160px;
+    cursor: pointer;
+}
+
+.adviceWidget .livingPanel div:first-child,
+.adviceWidget .healthPanel div:first-child,
+.adviceWidget .sportPanel div:first-child{
+    padding-left: 55px;
+    padding-top: 15px;
+    margin:  5px;
+    white-space: nowrap;
+    font-size: 36px;
+    font-weight: bold;
+    height: 50px;
+    text-align: right;
+}
+
+.adviceWidget .livingPanel div:first-child {background: url(images/icon_advice_living.png) no-repeat left top;}
+.adviceWidget .healthPanel div:first-child {background: url(images/icon_advice_health.png) no-repeat left top;}
+.adviceWidget .sportPanel div:first-child  {background: url(images/icon_advice_sport.png) no-repeat left top;}
+
+.adviceWidget .livingPanel,
+.adviceWidget .healthPanel {
+    margin-right: 15px;
+}
+
+.adviceWidget .adviceDescription {
+    margin: 0 5px 5px;
+}
+
+.adviceWidget .advicePanel > div {
+    padding: 10px;
+}
+
+.adviceWidget .advicePanel .adviceHeading {
+    font-weight: bold;
+}

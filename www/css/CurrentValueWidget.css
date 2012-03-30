@@ -1,0 +1,95 @@
+.currentValueWidget {
+    color: white;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 0 -1px -1px #000000;
+}
+
+.currentValueWidget .valuePanel {
+    background: #702127;
+	background: -moz-linear-gradient(top, #702127, #a32f39);
+    background: linear-gradient(top, #702127, #a32f39);
+    background: -o-linear-gradient(top, #702127, #a32f39);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #702127), color-stop(1, #a32f39));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#702127', endColorstr='#a32f39');
+    -moz-border-radius: 10px; /* FF1+ */
+    -webkit-border-radius: 10px; /* Saf3-4 */
+    border-radius: 10px; /* Opera 10.5, IE9, Saf5, Chrome */
+    position: relative;
+    padding: 5px;
+    margin: 15px 0;
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+.currentValueWidget .valuePanel:first-child {
+    margin-right: 15px;
+}
+
+.currentValueWidget .valuePanel .value {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: default;
+    text-align: right;
+}
+
+.currentValueWidget .valuePanel .valueBox {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: default;
+    text-align: right;
+    border: none;
+    color: white;
+    background-color: #D13643;
+    font-family: Verdana, sans-serif;
+    width: 140px;
+}
+
+.currentValueWidget .valuePanel .value.editable {
+    cursor: pointer;
+}
+
+.currentValueWidget .valuePanel .notificationPanel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -moz-border-radius: 10px; /* FF1+ */
+    -webkit-border-radius: 10px; /* Saf3-4 */
+    border-radius: 10px; /* Opera 10.5, IE9, Saf5, Chrome */
+    background-color: #D13643;
+}
+
+.currentValueWidget .valuePanel .notificationPanel .gwt-Label {
+    margin:  5px;
+}
+
+.currentValueWidget .valuePanel .notificationPanel button {
+    padding:  2px 4px;
+    margin: 5px 5px 0;
+	background: -moz-linear-gradient(top, #702127, #a32f39);
+    background: linear-gradient(top, #702127, #a32f39);
+    background: -o-linear-gradient(top, #702127, #a32f39);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #702127), color-stop(1, #a32f39));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#702127', endColorstr='#a32f39');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#702127', endColorstr='#a32f39')";
+    -moz-border-radius: 4px; /* FF1+ */
+    -webkit-border-radius: 4px; /* Saf3-4 */
+    border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.currentValueWidget .valuePanel .notificationPanel button:hover {
+	background: -moz-linear-gradient(top, #992c35, #bf3743);
+    background: linear-gradient(top, #992c35, #bf3743);
+    background: -o-linear-gradient(top, #992c35, #bf3743);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #992c35), color-stop(1, #bf3743));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#992c35', endColorstr='#bf3743');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#992c35', endColorstr='#bf3743')";
+}

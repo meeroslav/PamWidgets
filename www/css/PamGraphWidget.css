@@ -1,0 +1,418 @@
+.pamGraphWidget {
+    padding: 5px;
+    font-size: 14px;
+    font-family: Helvetica,Arial,sans-serif;
+    position: relative;
+    color: #ffffff;
+    text-shadow: 0 -1px -1px #000000;
+}
+
+/*************** Toolbar *****************/
+
+.pamGraphWidget .toolBar {
+    height: 76px;
+    padding: 5px;
+    text-align: center;
+}
+
+.pamGraphWidget .toolBar > div {
+    display: inline-block;
+}
+
+.pamGraphWidget .toolBar > div.clear {
+    float: none;
+}
+
+.pamGraphWidget .toolBar .toolButton {
+    height: 2px;
+    width: 70px;
+    cursor: pointer;
+    padding-top: 40px;
+    position: relative;
+    margin: 0;
+    vertical-align: top;
+}
+
+.pamGraphWidget .toolBar .toolbar-separator {
+    height: 46px;
+    margin: 10px 0;
+}
+
+.pamGraphWidget .toolBar .toolButton span.toolBarImage {
+    height: 43px;
+    width: 36px;
+    margin-left: 17px;
+    display: block;
+    position: absolute;
+    top: 0;
+    background-image: url(images/toolbar_icons.png);
+    background-repeat: no-repeat;
+}
+
+.pamGraphWidget .toolBar .scoreBoard {
+    background: #374147;
+	background: -moz-linear-gradient(top, rgb(55, 65, 71), rgb(114, 123, 129));
+    background: linear-gradient(top, rgb(55, 65, 71), rgb(114, 123, 129));
+    background: -o-linear-gradient(top, rgb(55, 65, 71), rgb(114, 123, 129));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(55, 65, 71)), color-stop(1, rgb(114, 123, 129)));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#374147', endColorstr='#727b81');
+    -moz-border-radius: 4px; /* FF1+ */
+    -webkit-border-radius: 4px; /* Saf3-4 */
+    border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome */
+    width: 80px;
+    color: White;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px 5px;
+    text-align: right;
+    margin: 4px
+}
+
+.iconPam .toolBarImage { background-position: 0 0}
+.iconPam.selected .toolBarImage, .iconPam:hover .toolBarImage { background-position: 0 -43px}
+.iconLiving .toolBarImage { background-position: -36px 0}
+.iconLiving.selected .toolBarImage, .iconLiving:hover .toolBarImage { background-position: -36px -43px}
+.iconHealth .toolBarImage { background-position: -72px 0}
+.iconHealth.selected .toolBarImage, .iconHealth:hover .toolBarImage { background-position: -72px -43px}
+.iconSport .toolBarImage { background-position: -108px 0}
+.iconSport.selected .toolBarImage, .iconSport:hover .toolBarImage { background-position: -108px -43px}
+.iconCalories .toolBarImage { background-position: -144px 0}
+.iconCalories.selected .toolBarImage, .iconCalories:hover .toolBarImage { background-position: -144px -43px}
+.iconFruits .toolBarImage { background-position: -180px 0; display: none;}
+.iconFruits.selected .toolBarImage, .iconFruits:hover .toolBarImage { background-position: -180px -43px}
+.iconWeight .toolBarImage { background-position: -216px 0}
+.iconWeight.selected .toolBarImage, .iconWeight:hover .toolBarImage { background-position: -216px -43px}
+.iconGoal .toolBarImage { background-position: -252px 0}
+.iconGoal.selected .toolBarImage, .iconGoal:hover .toolBarImage { background-position: -252px -43px}
+
+/*********** Scope switch *******************/
+
+.scopeSwitch {
+    float: left;
+    height: 66px;
+    width: 76px;
+    border: 1px solid rgba(255,255,255,0.5);
+    background: #374147;
+	background: -moz-linear-gradient(top, rgb(55, 65, 71), rgb(114, 123, 129));
+    background: linear-gradient(top, rgb(55, 65, 71), rgb(114, 123, 129));
+    background: -o-linear-gradient(top, rgb(55, 65, 71), rgb(114, 123, 129));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(55, 65, 71)), color-stop(1, rgb(114, 123, 129)));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#374147', endColorstr='#727b81');
+    -moz-border-radius: 4px; /* FF1+ */
+    -webkit-border-radius: 4px; /* Saf3-4 */
+    border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome */
+    margin: 10px;
+}
+
+.scopeSwitch .scopeItem {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 1px 0 2px;
+    cursor: pointer
+}
+
+.scopeSwitch .scopeItem.selected {
+    background: #808080;
+	background: -moz-linear-gradient(top, rgb(128, 128, 128), rgb(255, 255, 255));
+    background: linear-gradient(top, rgb(128, 128, 128), rgb(255, 255, 255));
+    background: -o-linear-gradient(top, rgb(128, 128, 128), rgb(255, 255, 255));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(128, 128, 128)), color-stop(1, rgb(255, 255, 255)));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#808080', endColorstr='#ffffff');
+    -moz-border-radius: 4px; /* FF1+ */
+    -webkit-border-radius: 4px; /* Saf3-4 */
+    border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome */
+    border: 1px solid rgba(0,0,0,0.2);
+    color: black;
+    padding: 2px 0 3px;
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.75); /* FF3.5+ */
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.75); /* Saf3.0+, Chrome */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.75); /* Opera 10.5, IE9 */
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+/************ TimeLine *********************/
+
+.timeLine {
+    height: 86px;
+    display: block;
+    margin-left: 86px;
+}
+
+.timeLine .navigation {
+    margin: 28px 3px;
+    display: block;
+    width: 15px;
+    height: 30px;
+    cursor: pointer;
+}
+.timeLine .showPrev {
+    background: url('images/prev.png') no-repeat;
+    float:left;
+}
+.timeLine .showNext {
+    background: url('images/next.png') no-repeat;
+    float:right;
+}
+.timeLine .showPrev:hover {
+    background: url('images/prev_h.png') no-repeat;
+}
+.timeLine .showNext:hover {
+    background: url('images/next_h.png') no-repeat;
+}
+
+.timeLine .timeLineHolder {
+    overflow: hidden;
+    height: 86px;
+    position: relative;
+}
+.timeLine .timeScopes {
+    height: 86px;
+    position: relative;
+}
+
+.timeLine .scopeBlock {
+    float: left;
+    height: 64px;
+    width: 74px;
+    font-weight: bold;
+    background: #374147;
+	background: -moz-linear-gradient(top, rgb(55, 65, 71), rgb(114, 123, 129));
+    background: linear-gradient(top, rgb(55, 65, 71), rgb(114, 123, 129));
+    background: -o-linear-gradient(top, rgb(55, 65, 71), rgb(114, 123, 129));
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(55, 65, 71)), color-stop(1, rgb(114, 123, 129)));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#374147', endColorstr='#727b81');
+    -moz-border-radius: 4px; /* FF1+ */
+    -webkit-border-radius: 4px; /* Saf3-4 */
+    border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome */
+    margin: 10px 5px 10px 5px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.5);
+    z-index: 10;
+}
+
+.timeLine .scopeBlock div {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.timeLine .scopeBlock .colorOverflow {
+    display: none;
+    background: #a4303a;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -moz-border-radius: 4px; /* FF1+ */
+    -webkit-border-radius: 4px; /* Saf3-4 */
+    border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome */
+}
+
+.timeLine .scopeBlock .bar{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: White;
+    opacity: 0.3;
+    filter: alpha(opacity = 30);
+}
+
+.timeLine .scopeBlock .pamScore{
+    position: absolute;
+    top: 22px;
+    width: 94%;
+    text-align: right;
+    color: white;
+    font-size: 24px;
+}
+
+.timeLine .scopeBlock a:visited {
+    color: white !important;
+}
+
+.timeLine .scopeBlock.selected .pamScore{
+    font-size: 30px;
+}
+
+.timeLine .scopeBlock .selectButton{
+    position:absolute;
+   	top:2px;
+   	right: 2px;
+   	height: 15px;
+   	width: 15px;
+   	background: url(images/select_unit.png);
+}
+
+.timeLine .scopeBlock .selectButton:hover {
+    background: url(images/select_unit_h.png);
+}
+
+.timeLine .scopeBlock.selected .selectButton {
+    background: url(images/deselect_unit.png);
+}
+
+.timeLine .scopeBlock.selected .selectButton:hover {
+    background: url(images/deselect_unit_h.png);
+}
+
+.timeLine .scopeBlock .dateInterval{
+    position:absolute;
+    bottom: 2px;
+    color: white;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.timeLine .scopeBlock:hover {
+   background-color: #555555;
+}
+
+.timeLine .scopeBlock.selected {
+    margin: 2px 1px;
+    width: 82px;
+    height: 80px;
+}
+
+.timeLine .scopeBlock.selected .colorOverflow {
+    display: block;
+}
+
+/********** Bar graph **********************/
+
+.barGraph {
+	position:relative;
+    height: 300px;
+    margin: 10px;
+    z-index: 100;
+    -webkit-border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.barGraph canvas {
+    cursor: pointer;
+}
+
+/*********** Tooltip ********************/
+
+.toolTip {
+	position:absolute;
+    padding: 5px;
+    background: #ffffff;
+    background: rgba(255,255,255,0.8);
+    border: 2px solid #a4303a;
+    -moz-border-radius: 4px; /* FF1+ */
+    -webkit-border-radius: 4px; /* Saf3-4 */
+    border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome */
+    z-index: 99;
+}
+
+.toolTip .valuesContainer {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #a4303a;
+}
+
+.toolTip .dateField {
+    padding-top: 5px;
+}
+
+.toolTip .labelHeading {
+    font-weight: bold;
+}
+
+/*********** MODAL DIALOG ***********************************/
+
+.modalDialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    margin-top: -35px;
+    border: 2px solid #b2b7c2;
+    -moz-border-radius: 20px; /* FF1+ */
+    -webkit-border-radius: 20px; /* Saf3-4 */
+    border-radius: 20px; /* Opera 10.5, IE9, Saf5, Chrome */
+    padding: 10px;
+    z-index: 101;
+    text-align: center;
+    font-size: 14px;
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+
+	box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset;
+	background: -webkit-gradient(
+		linear,
+		0 0,
+		0 100,
+		color-stop(1, rgba(11,27,68,1)),
+		color-stop(0.15, rgb(11,27,68)),
+		color-stop(0.16, rgb(55,65,93)),
+		color-stop(0, rgb(102,110,131))
+	) no-repeat;
+	background: -moz-linear-gradient(
+		center bottom,
+		rgb(102,110,131) 0%,
+		rgb(55,65,93) 15%,
+		rgb(11,27,68) 16%,
+		rgb(11,27,68) 100%
+	);
+}
+
+.modalDialog button {
+	-webkit-border-radius: 8px;
+	background: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(109,132,162)),
+		color-stop(0.5, rgb(128,148,174)),
+		color-stop(0.51, rgb(136,155,179)),
+		color-stop(1, rgb(176,188,205))
+	) no-repeat;
+	background: -moz-linear-gradient(
+		center bottom,
+		rgb(109,132,162) 0%,
+		rgb(128,148,174) 50%,
+		rgb(136,155,179) 51%,
+		rgb(176,188,205) 100%
+	);
+	padding: 0.6em 25px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    display: block;
+    width: 200px;
+    margin: 0.5em 0;
+    height: 40px;
+}
+
+/********** General - Leave at the end **********************/
+
+.clear {
+    clear: both;
+}
+
+.overflowPanel {
+    background-color: black;
+    filter: alpha(opacity = 50);
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+}
+
+.loadingAnimation {
+    background: url(images/loading_animation.gif) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
