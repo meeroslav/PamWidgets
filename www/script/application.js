@@ -5,7 +5,7 @@
  * Time: 1:40 PM
  */
 /********* FIELDS ************/
-var rest_url = "http://vm-ubuntu10/Pam/getdata.php",
+var rest_url = "http://www.pam.com/JSON/getdata.php",
     previousOrientation = null;
 var PamSettings = {
     "serial":null,    
