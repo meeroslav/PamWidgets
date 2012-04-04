@@ -699,16 +699,29 @@ input.ui-input-text, .ui-input-search {
 
 @media only screen and (orientation:portrait) {
     .pamGraphWidget {
-        width: 770px;
+        width: 320px;
+        height: 480px;
         margin: -20px;
     }
     .adviceWidget, .currentValueWidget {
-        width: 740px;
+        width: 290px;
+    }
+
+    .toolBar {
+        height: 44px;
+    }
+
+    .toolButton {
+        width: 36px;
+    }
+
+    .toolBarImage {
+        margin-left: 0;
     }
 
     .barGraph {
-        height: 744px;
-        width: 730px;
+        height: 286px;
+        width: 410px;
     }
 
     .adviceWidget .livingPanel, .adviceWidget .healthPanel, .adviceWidget .sportPanel {
@@ -717,6 +730,10 @@ input.ui-input-text, .ui-input-search {
 
     .currentValueWidget .valuePanel {
         width: 352.5px;
+    }
+
+    .toolButton span:first-child, .ui-footer .ui-btn-inner span:first-child  {
+        display: none;
     }
 }
 
