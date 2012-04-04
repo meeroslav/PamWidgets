@@ -19,6 +19,8 @@
     <script type="text/javascript" charset="utf-8" src="script/jquery-1.6.4.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="script/jquery.mobile-1.0.1.min.js"></script>
     <script type="text/javascript" charset="utf-8" src="script/translations_EN.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/translations_DE.js"></script>
+    <script type="text/javascript" charset="utf-8" src="script/translations_NL.js"></script>
     <script type="text/javascript" charset="utf-8" src="PamUI/PamUI.nocache.js"></script>
     <script type="text/javascript" charset="utf-8" src="script/application.js"></script>
   </head>
@@ -38,7 +40,7 @@
         </div>
     </div>
 
-    <div data-role="page" id="activities"  data-title="Pam Advice">
+    <div data-role="page" id="activities" data-title="Pam Advice">
         <div data-role="content" id="adviceFrame"></div>
         <div data-role="footer" data-position="fixed">
             <a href="#graph" data-transition="slide" data-direction="reverse" data-icon="graph" data-iconpos="top">
@@ -55,22 +57,39 @@
 
     <div data-role="page" id="settings"  data-title="Pam Settings" data-add-back-btn="true">
         <div data-role="header" data-theme="a" data-position="fixed">
-            <h1>Pam Settings</h1>
+            <h1 id="mobile_settings">Settings</h1>
         </div>
         <div data-role="content">
             <form action="" name="settings_form" id="settings_form">
                 <div data-content-theme="c">
-                    <h3>User account</h3>
+                    <h3 id="mobile_useraccount">User account</h3>
                     <div data-role="fieldcontain">
-                        <label for="username">Username:</label>
+                        <label for="username" id="mobile_username">Username:</label>
                         <input type="text" name="username" id="username" value="" />
                     </div>
                     <div data-role="fieldcontain">
-                        <label for="password">Password:</label>
+                        <label for="password" id="mobile_password">Password:</label>
                         <input type="password" name="password" id="password" value="" />
                     </div>
                 </div>
-                <a onclick="submitWithAjax()" data-role="button" data-theme="b">Save settings</a>
+                <div data-content-theme="c">
+                    <h3 id="mobile_appsettings">App settings</h3>
+                    <div data-role="fieldcontain">
+                        <fieldset data-role="controlgroup" data-type="horizontal">
+                            <legend id="mobile_language">Language:</legend>
+                                <input type="radio" name="language" id="language_en" value="en" checked="checked" />
+                                <label for="language_en">English</label>
+
+                                <input type="radio" name="language" id="language_de" value="de"  />
+                                <label for="language_de">Deutche</label>
+
+                                <input type="radio" name="language" id="language_nl" value="nl"  />
+                                <label for="language_nl">Nederlands</label>
+                        </fieldset>
+                    </div>
+                </div>
+                <a onclick="submitWithAjax()" data-role="button" data-theme="b" id="mobile_savesettings">Save settings</a>
+                <a onclick="clearStorage()" data-role="button" data-theme="c" id="mobile_cleardata">Clear data</a>
             </form>
         </div>
     </div>

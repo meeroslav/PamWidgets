@@ -64,5 +64,15 @@ var translations_en = {
     current_goal: "Current goal",
     click_to_edit: "Click to edit this value",
     ok: "OK",
-    weight_save_failed: "Weight saving failed. Please synchronize your pam device."
+    weight_save_failed: "Weight saving failed. Please synchronize your pam device.",
+    mobile_useraccount: "User account",
+    mobile_username: "Username",
+    mobile_password: "Password",
+    mobile_appsettings: "Application settings",
+    mobile_language: "Language",
+    mobile_savesettings: "Save",
+    mobile_cleardata: "Clear data",
+    mobile_settings: "Settings",
+    mobile_pamgraph: "Pam Graph",
+    mobile_pamadvice: "Pam Advice"
 };

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A98A92CB152AE2A40070E7D6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98A92CA152AE2A40070E7D6 /* CoreMedia.framework */; };
 		A9A58C071523592A00CC747B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A58C061523592A00CC747B /* Foundation.framework */; };
 		A9A58C091523592A00CC747B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A58C081523592A00CC747B /* UIKit.framework */; };
 		A9A58C0B1523592A00CC747B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A58C0A1523592A00CC747B /* CoreGraphics.framework */; };
@@ -40,11 +41,10 @@
 		A9A58C5F152359C400CC747B /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A58C5E152359C400CC747B /* Default-Portrait~ipad.png */; };
 		A9A58C61152359CA00CC747B /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A58C60152359CA00CC747B /* Default-Landscape~ipad.png */; };
 		A9A58C6315235ACE00CC747B /* www in Resources */ = {isa = PBXBuildFile; fileRef = A9A58C6215235ACE00CC747B /* www */; };
-		A9A58C791524940F00CC747B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A58C781524940F00CC747B /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		A9A58C7B1524942600CC747B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A58C7A1524942600CC747B /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A98A92CA152AE2A40070E7D6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		A9A58C021523592A00CC747B /* PamWidgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PamWidgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A58C061523592A00CC747B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9A58C081523592A00CC747B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -82,8 +82,6 @@
 		A9A58C5E152359C400CC747B /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		A9A58C60152359CA00CC747B /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		A9A58C6215235ACE00CC747B /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-		A9A58C781524940F00CC747B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		A9A58C7A1524942600CC747B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A9A58C7C1525B36100CC747B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = /Users/mgacesa/Documents/Pam/PamWidgets/PamWidgets/nl.lproj/Localizable.strings; sourceTree = "<absolute>"; };
 		A9A58C7D1525B36100CC747B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = /Users/mgacesa/Documents/Pam/PamWidgets/PamWidgets/nl.lproj/Localizable.strings; sourceTree = "<absolute>"; };
 		A9A58C7E1525B36100CC747B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = /Users/mgacesa/Documents/Pam/PamWidgets/PamWidgets/nl.lproj/Localizable.strings; sourceTree = "<absolute>"; };
@@ -96,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A58C791524940F00CC747B /* CoreMedia.framework in Frameworks */,
+				A98A92CB152AE2A40070E7D6 /* CoreMedia.framework in Frameworks */,
 				A9A58C071523592A00CC747B /* Foundation.framework in Frameworks */,
 				A9A58C091523592A00CC747B /* UIKit.framework in Frameworks */,
 				A9A58C0B1523592A00CC747B /* CoreGraphics.framework in Frameworks */,
@@ -110,7 +108,6 @@
 				A9A58C1B1523592A00CC747B /* SystemConfiguration.framework in Frameworks */,
 				A9A58C1D1523592A00CC747B /* MobileCoreServices.framework in Frameworks */,
 				A9A58C2A1523592A00CC747B /* Cordova.framework in Frameworks */,
-				A9A58C7B1524942600CC747B /* CoreMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +124,6 @@
 		A9A58BF41523592A00CC747B = {
 			isa = PBXGroup;
 			children = (
-				A9A58C781524940F00CC747B /* CoreMedia.framework */,
 				A9A58C6215235ACE00CC747B /* www */,
 				A9A58C201523592A00CC747B /* PamWidgets */,
 				A9A58C051523592A00CC747B /* Frameworks */,
@@ -146,7 +142,7 @@
 		A9A58C051523592A00CC747B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A9A58C7A1524942600CC747B /* CoreMedia.framework */,
+				A98A92CA152AE2A40070E7D6 /* CoreMedia.framework */,
 				A9A58C061523592A00CC747B /* Foundation.framework */,
 				A9A58C081523592A00CC747B /* UIKit.framework */,
 				A9A58C0A1523592A00CC747B /* CoreGraphics.framework */,
@@ -304,7 +300,7 @@
 		A9A58BF61523592A00CC747B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = A9A58BF91523592A00CC747B /* Build configuration list for PBXProject "PamWidgets" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -454,11 +450,12 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -474,11 +471,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -497,7 +495,9 @@
 					"DEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "PamWidgets/PamWidgets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -509,6 +509,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -527,7 +528,9 @@
 					"NDEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "PamWidgets/PamWidgets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					UIKit,
@@ -539,6 +542,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

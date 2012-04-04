@@ -43,6 +43,9 @@ function onDeviceReady()
     if (window.localStorage.getItem("serial_number") != null){
         $("#username").val(window.localStorage.getItem("username"));
         PamSettings.serial = window.localStorage.getItem("serial_number").toString();
+        PamSettings.language = window.localStorage.getItem("language").toString();
+        $("#language_" + PamSettings.language).checked = true;
+        translateApplication(PamSettings.language);
         pamInit();
     } else {
         $('#cancel_settings').hide();
@@ -73,7 +76,6 @@ function submitWithAjax(){
             jsonpCallback: 'loginCallback'
         });
     } else {
-    
         alert("Invalid username or password.");
     }
 }
@@ -82,11 +84,43 @@ function loginCallback(data){
     if (data.invalid != null){
         alert(data.invalid);
     } else {
+        var langValue = $("input:radio['name=r']:checked").val();
         window.localStorage.setItem("serial_number", data.serial);
+        window.localStorage.setItem("language", langValue);
         $('#cancel_settings').show();
         $.mobile.changePage($("#graph"),{reverse: true, transition: "slide"});
         $.mobile.fixedToolbars.show(true);
         PamSettings.serial = window.localStorage.getItem("serial_number").toString();
+        PamSettings.language = window.localStorage.getItem("language").toString();
+        translateApplication(PamSettings.language);
         pamInit();
+    }
+}
+
+function clearStorage(){
+    window.localStorage.clear();
+}
+
+function translateApplication(language){
+    var langObj = eval("translations_" + language);
+    if (langObj != null){
+        $("#mobile_savesettings span.ui-btn-text").text(langObj.mobile_savesettings);
+        $("#mobile_cleardata span.ui-btn-text").text(langObj.mobile_cleardata);
+        $("#mobile_language").text(langObj.mobile_language + ":");
+        $("#mobile_appsettings").text(langObj.mobile_appsettings);
+        $("#mobile_useraccount").text(langObj.mobile_useraccount);
+        $("#mobile_username").text(langObj.mobile_username);
+        $("#mobile_password").text(langObj.mobile_password);
+        $("a[href='#graph'] span.ui-btn-text").each(function(){
+            $(this).text(langObj.mobile_pamgraph);
+        });
+        $("a[href='#activities'] span.ui-btn-text").each(function(){
+            $(this).text(langObj.mobile_pamadvice);
+        });
+        $("a[href='#settings'] span.ui-btn-text").each(function(){
+            $(this).text(langObj.mobile_settings);
+        });
+        $("#mobile_settings").text(langObj.mobile_settings);
+
     }
 }
