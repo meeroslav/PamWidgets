@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A98A92CB152AE2A40070E7D6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98A92CA152AE2A40070E7D6 /* CoreMedia.framework */; };
+		A99797F6152C986600CE9A80 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99797F5152C986600CE9A80 /* CoreMedia.framework */; };
 		A9A58C071523592A00CC747B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A58C061523592A00CC747B /* Foundation.framework */; };
 		A9A58C091523592A00CC747B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A58C081523592A00CC747B /* UIKit.framework */; };
 		A9A58C0B1523592A00CC747B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A58C0A1523592A00CC747B /* CoreGraphics.framework */; };
@@ -44,7 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A98A92CA152AE2A40070E7D6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		A99797F5152C986600CE9A80 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A9A58C021523592A00CC747B /* PamWidgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PamWidgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A58C061523592A00CC747B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9A58C081523592A00CC747B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A98A92CB152AE2A40070E7D6 /* CoreMedia.framework in Frameworks */,
+				A99797F6152C986600CE9A80 /* CoreMedia.framework in Frameworks */,
 				A9A58C071523592A00CC747B /* Foundation.framework in Frameworks */,
 				A9A58C091523592A00CC747B /* UIKit.framework in Frameworks */,
 				A9A58C0B1523592A00CC747B /* CoreGraphics.framework in Frameworks */,
@@ -142,7 +142,7 @@
 		A9A58C051523592A00CC747B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A98A92CA152AE2A40070E7D6 /* CoreMedia.framework */,
+				A99797F5152C986600CE9A80 /* CoreMedia.framework */,
 				A9A58C061523592A00CC747B /* Foundation.framework */,
 				A9A58C081523592A00CC747B /* UIKit.framework */,
 				A9A58C0A1523592A00CC747B /* CoreGraphics.framework */,
