@@ -16,6 +16,8 @@ var PamSettings = {
     "PamGraphWidget":{
         "style":"pamGraphWidget",
         "barColorHue":215,
+        "barColorSecondHue":355,
+        "barColorThirdHue":110,
         "barColorSaturation":0.74,
         "barGradientDirection":1,
         "chunkSize":20,

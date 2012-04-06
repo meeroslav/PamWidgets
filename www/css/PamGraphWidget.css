@@ -69,21 +69,21 @@
 }
 
 .iconPam .toolBarImage { background-position: 0 0}
-.iconPam.selected .toolBarImage, .iconPam:hover .toolBarImage { background-position: 0 -43px}
+.iconPam.selected .toolBarImage { background-position: 0 -43px}
 .iconLiving .toolBarImage { background-position: -36px 0}
-.iconLiving.selected .toolBarImage, .iconLiving:hover .toolBarImage { background-position: -36px -43px}
+.iconLiving.selected .toolBarImage { background-position: -36px -43px}
 .iconHealth .toolBarImage { background-position: -72px 0}
-.iconHealth.selected .toolBarImage, .iconHealth:hover .toolBarImage { background-position: -72px -43px}
+.iconHealth.selected .toolBarImage { background-position: -72px -43px}
 .iconSport .toolBarImage { background-position: -108px 0}
-.iconSport.selected .toolBarImage, .iconSport:hover .toolBarImage { background-position: -108px -43px}
+.iconSport.selected .toolBarImage { background-position: -108px -43px}
 .iconCalories .toolBarImage { background-position: -144px 0}
-.iconCalories.selected .toolBarImage, .iconCalories:hover .toolBarImage { background-position: -144px -43px}
+.iconCalories.selected .toolBarImage { background-position: -144px -43px}
 .iconFruits .toolBarImage { background-position: -180px 0; display: none;}
-.iconFruits.selected .toolBarImage, .iconFruits:hover .toolBarImage { background-position: -180px -43px}
+.iconFruits.selected .toolBarImage { background-position: -180px -43px}
 .iconWeight .toolBarImage { background-position: -216px 0}
-.iconWeight.selected .toolBarImage, .iconWeight:hover .toolBarImage { background-position: -216px -43px}
+.iconWeight.selected .toolBarImage { background-position: -216px -43px}
 .iconGoal .toolBarImage { background-position: -252px 0}
-.iconGoal.selected .toolBarImage, .iconGoal:hover .toolBarImage { background-position: -252px -43px}
+.iconGoal.selected .toolBarImage { background-position: -252px -43px}
 
 /*********** Scope switch *******************/
 
