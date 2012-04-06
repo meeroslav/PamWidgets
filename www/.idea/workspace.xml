@@ -23,13 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="prev_h.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/images/prev_h.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="select_unit.png" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/images/select_unit.png">
           <provider selected="true" editor-type-id="images">
@@ -54,7 +47,7 @@
       <file leaf-file-name="iphone.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/iphone.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="874" column="22" selection-start="21272" selection-end="21272" vertical-scroll-proportion="0.25667828">
+            <state line="381" column="41" selection-start="9498" selection-end="9498" vertical-scroll-proportion="0.19845645">
               <folding />
             </state>
           </provider>
@@ -81,7 +74,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="26" selection-start="2017" selection-end="2017" vertical-scroll-proportion="-20.625">
+            <state line="35" column="26" selection-start="2017" selection-end="2017" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -218,16 +211,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -277,7 +270,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23089257" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23356494" sideWeight="0.99038464" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -333,11 +326,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/images/iconSprite.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/images/loading_animation.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -373,6 +361,28 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/images/tabSprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/PamGraphWidget.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="1" selection-start="3225" selection-end="3225" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="26" selection-start="2017" selection-end="2017" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/images/tiling_stripes.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -383,42 +393,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/tabSprite.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/ipad.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="709" column="15" selection-start="17795" selection-end="17795" vertical-scroll-proportion="0.33144155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="1" selection-start="3225" selection-end="3225" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="26" selection-start="2017" selection-end="2017" vertical-scroll-proportion="-20.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/PamGraphWidget.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="195" column="7" selection-start="4852" selection-end="4855" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/iphone.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="874" column="22" selection-start="21272" selection-end="21272" vertical-scroll-proportion="0.25667828">
+        <state line="381" column="41" selection-start="9498" selection-end="9498" vertical-scroll-proportion="0.19845645">
           <folding />
         </state>
       </provider>
