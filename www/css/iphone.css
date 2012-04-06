@@ -694,46 +694,208 @@ input.ui-input-text, .ui-input-search {
 
 .adviceWidget .livingPanel, .adviceWidget .healthPanel, .adviceWidget .sportPanel, .adviceWidget .advicePanel,
 .currentValueWidget .valuePanel{
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #81A8CE), color-stop(1, #5E87B0));
-}
-
-@media only screen and (orientation:portrait) {
-    .pamGraphWidget {
-        width: 320px;
-        height: 480px;
-        margin: -20px;
-    }
-    .adviceWidget, .currentValueWidget {
-        width: 290px;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #81A8CE), color-stop(1, #5E87B0));
     }
 
-    .toolBar {
+    .pamGraphWidget .toolBar {
         height: 44px;
+        padding-top: 10px;
     }
 
-    .toolButton {
+
+    .pamGraphWidget .toolBar .toolButton  {
         width: 36px;
     }
-
-    .toolBarImage {
+    .pamGraphWidget .toolBar .toolButton span.toolBarImage {
         margin-left: 0;
-    }
-
-    .barGraph {
-        height: 286px;
-        width: 410px;
-    }
-
-    .adviceWidget .livingPanel, .adviceWidget .healthPanel, .adviceWidget .sportPanel {
-        width: 236.3px;
-    }
-
-    .currentValueWidget .valuePanel {
-        width: 352.5px;
     }
 
     .toolButton span:first-child, .ui-footer .ui-btn-inner span:first-child  {
         display: none;
+    }
+
+    .adviceWidget .livingPanel div:first-child, .adviceWidget .healthPanel div:first-child, .adviceWidget .sportPanel div:first-child {
+        font-size: 18px;
+    }
+
+    .advicePanel, .adviceWidget {
+        font-size: 12px;
+    }
+
+    .adviceDescription {
+        height: 30px;
+    }
+
+    .adviceWidget .livingPanel, .adviceWidget .healthPanel {
+        margin-right: 5px;
+    }
+
+
+@media only screen and (orientation:portrait) {
+
+    .pamGraphWidget {
+        margin: -20px;
+        width: 320px;
+    }
+
+    .adviceWidget, .currentValueWidget {
+        width: 290px;
+    }
+
+    .barGraph {
+        height: 250px;
+        width: 280px;
+    }
+
+    .adviceWidget .livingPanel, .adviceWidget .healthPanel, .adviceWidget .sportPanel {
+        width: 93.5px;
+        min-width: 93.5px;
+        margin-bottom: 5px;
+    }
+    
+
+    .adviceWidget .livingPanel div:first-child, .adviceWidget .healthPanel div:first-child, .adviceWidget .sportPanel div:first-child {
+        height: 25px;
+        padding-left: 0;
+        text-align: center;
+        padding-top: 65px;
+        background-position: top center;
+    }
+
+    .advicePanel {
+        padding: 5px 0;
+    }
+
+    .currentValueWidget .valuePanel {
+        width: 132px;
+        height: 70px;
+        margin: 5px 0;
+    }
+
+    .currentValueWidget .valuePanel:first-child {
+        margin-right: 5px;
+    }
+
+    .currentValueWidget .valuePanel .valueBox {
+        width: 132px;
+    }
+
+    .currentValueWidget .valuePanel .value {
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .ui-controlgroup-horizontal .ui-radio .ui-btn-inner {
+        padding: 0.5em 1.1em !important;
+    }
+
+    .ui-btn-text {
+        font-size: 14px;
+    }
+
+    .ui-field-contain {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ui-field-contain.ui-body.ui-br {
+        border: medium none;
+        margin: 0 0 5px;
+        padding: 0;
+    }
+
+    .ui-content div h3 {
+        margin: 10px 0;
+        border: medium none;
+    }
+
+    .ui-controlgroup, fieldset.ui-corner-all.ui-controlgroup.ui-controlgroup-horizontal {
+        margin: 5px 0;
+    }
+
+    .ui-field-contain label.ui-input-text {
+        width: 90px;
+        margin: 0;
+    }
+
+    .ui-field-contain input.ui-input-text {
+        width: 180px;
+        margin: 0;
+    }
+
+    .ui-field-contain .ui-input-text {
+        display: inline-block;
+    }
+
+    .ui-btn.ui-btn-corner-all.ui-shadow.ui-btn-up-b{
+        margin-top: 10px;
+    }
+
+    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus {
+        background-color: white;
+        height: 30px;
+        width: 110px;
+        line-height: 29px;
+        padding-bottom: 0;
+        padding-top: 0;
+        margin: 5px 5px 7px;
+        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset;
+        border: 1px solid #BBBBBB;
+        color: #4c596e;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #settings form>div {
+        margin-bottom: 30px;
+    }
+
+    .holderPanel {
+        width: 320px;
+        overflow-y: hidden;
+        padding: 15px;
+        margin: -15px;
+    }
+
+    .scopeSwitch {
+        height: 56px;
+        width: 66px;
+    }
+
+    .scopeItem {
+        font-size: 12px;
+    }
+
+    .scopeSwitch .scopeItem.selected {
+        padding: 1px 0 2px;
+    }
+
+    .timeLine {
+        height: 76px;
+        margin-left: 56px;
+    }
+
+    .timeLine .navigation {
+        margin: 23px 3px;
+    }
+
+    .timeLine .timeLineHolder, .timeLine .timeScopes {
+        height: 76px;
+    }
+
+    .timeLine .scopeBlock .pamScore {
+        top: 15px;
+    }
+
+    .timeLine .scopeBlock {
+        height: 54px;
+        width: 70px;
+        margin: 10px 1px;
+    }
+
+    .timeLine .scopeBlock.selected {
+        height: 70px;
+        width: 70px;
     }
 }
 

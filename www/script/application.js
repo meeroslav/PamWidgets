@@ -76,13 +76,13 @@ function submitWithAjax(){
             jsonpCallback: 'loginCallback'
         });
     } else {
-        alert("Invalid username or password.");
+        navigator.notification.alert("Invalid username or password.", clearStorage);
     }
 }
 
 function loginCallback(data){
     if (data.invalid != null){
-        alert(data.invalid);
+        navigator.notification.alert("Invalid username or password.");
     } else {
         var langValue = $("input:radio['name=r']:checked").val();
         window.localStorage.setItem("serial_number", data.serial);
