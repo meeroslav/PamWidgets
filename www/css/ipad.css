@@ -698,6 +698,31 @@ input.ui-input-text, .ui-input-search {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #81A8CE), color-stop(1, #5E87B0));
 }
 
+.valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus {
+    background-color: white;
+    height: 53px;
+    line-height: 48px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 5px 5px 7px;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 1px solid #BBBBBB;
+    color: #4c596e;
+    font-size: 48px;
+    text-align: right;
+}
+
+.holderPanel {
+    overflow-y: hidden;
+    padding: 15px;
+    margin: -15px;
+}
+
+.pamGraphWidget .toolBar {
+    height: 56px;
+}
+
 @media only screen and (orientation:portrait) {
     .pamGraphWidget {
         width: 770px;
@@ -707,8 +732,12 @@ input.ui-input-text, .ui-input-search {
         width: 740px;
     }
 
+    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus {
+        width: 330px;
+    }
+
     .barGraph {
-        height: 744px;
+        height: 762px;
         width: 730px;
     }
 
@@ -730,8 +759,12 @@ input.ui-input-text, .ui-input-search {
         width: 994px;
     }
 
+    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus {
+        width: 460px;
+    }
+
     .barGraph {
-        height: 488px;
+        height: 506px;
         width: 984px;
     }
 

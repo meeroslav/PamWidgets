@@ -24,9 +24,6 @@
 		A9A58C271523592A00CC747B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A58C261523592A00CC747B /* main.m */; };
 		A9A58C2A1523592A00CC747B /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A58C291523592A00CC747B /* Cordova.framework */; };
 		A9A58C2F1523592A00CC747B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9A58C2D1523592A00CC747B /* Localizable.strings */; };
-		A9A58C331523592A00CC747B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9A58C311523592A00CC747B /* Localizable.strings */; };
-		A9A58C371523592A00CC747B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9A58C351523592A00CC747B /* Localizable.strings */; };
-		A9A58C3B1523592A00CC747B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9A58C391523592A00CC747B /* Localizable.strings */; };
 		A9A58C3E1523592A00CC747B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A58C3D1523592A00CC747B /* icon.png */; };
 		A9A58C401523592A00CC747B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A58C3F1523592A00CC747B /* icon@2x.png */; };
 		A9A58C421523592A00CC747B /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A58C411523592A00CC747B /* icon-72.png */; };
@@ -64,7 +61,6 @@
 		A9A58C281523592A00CC747B /* PamWidgets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PamWidgets-Prefix.pch"; sourceTree = "<group>"; };
 		A9A58C291523592A00CC747B /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		A9A58C2E1523592A00CC747B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		A9A58C361523592A00CC747B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Resources/de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A9A58C3D1523592A00CC747B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
 		A9A58C3F1523592A00CC747B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icons/icon@2x.png"; sourceTree = "<group>"; };
 		A9A58C411523592A00CC747B /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
@@ -82,11 +78,6 @@
 		A9A58C5E152359C400CC747B /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		A9A58C60152359CA00CC747B /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		A9A58C6215235ACE00CC747B /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
-		A9A58C7C1525B36100CC747B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = /Users/mgacesa/Documents/Pam/PamWidgets/PamWidgets/nl.lproj/Localizable.strings; sourceTree = "<absolute>"; };
-		A9A58C7D1525B36100CC747B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = /Users/mgacesa/Documents/Pam/PamWidgets/PamWidgets/nl.lproj/Localizable.strings; sourceTree = "<absolute>"; };
-		A9A58C7E1525B36100CC747B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = /Users/mgacesa/Documents/Pam/PamWidgets/PamWidgets/nl.lproj/Localizable.strings; sourceTree = "<absolute>"; };
-		A9A58C7F1525B36100CC747B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = /Users/mgacesa/Documents/Pam/PamWidgets/PamWidgets/nl.lproj/Localizable.strings; sourceTree = "<absolute>"; };
-		A9A58C801525B36100CC747B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = /Users/mgacesa/Documents/Pam/PamWidgets/PamWidgets/nl.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,9 +181,6 @@
 			children = (
 				A9A58C481523592A00CC747B /* Capture.bundle */,
 				A9A58C2C1523592A00CC747B /* en.lproj */,
-				A9A58C301523592A00CC747B /* es.lproj */,
-				A9A58C341523592A00CC747B /* de.lproj */,
-				A9A58C381523592A00CC747B /* se.lproj */,
 				A9A58C3C1523592A00CC747B /* icons */,
 				A9A58C431523592A00CC747B /* splash */,
 			);
@@ -205,30 +193,6 @@
 				A9A58C2D1523592A00CC747B /* Localizable.strings */,
 			);
 			name = en.lproj;
-			sourceTree = "<group>";
-		};
-		A9A58C301523592A00CC747B /* es.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				A9A58C311523592A00CC747B /* Localizable.strings */,
-			);
-			name = es.lproj;
-			sourceTree = "<group>";
-		};
-		A9A58C341523592A00CC747B /* de.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				A9A58C351523592A00CC747B /* Localizable.strings */,
-			);
-			name = de.lproj;
-			sourceTree = "<group>";
-		};
-		A9A58C381523592A00CC747B /* se.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				A9A58C391523592A00CC747B /* Localizable.strings */,
-			);
-			name = se.lproj;
 			sourceTree = "<group>";
 		};
 		A9A58C3C1523592A00CC747B /* icons */ = {
@@ -311,6 +275,7 @@
 				es,
 				de,
 				se,
+				nl,
 			);
 			mainGroup = A9A58BF41523592A00CC747B;
 			productRefGroup = A9A58C031523592A00CC747B /* Products */;
@@ -329,9 +294,6 @@
 			files = (
 				A9A58C251523592A00CC747B /* InfoPlist.strings in Resources */,
 				A9A58C2F1523592A00CC747B /* Localizable.strings in Resources */,
-				A9A58C331523592A00CC747B /* Localizable.strings in Resources */,
-				A9A58C371523592A00CC747B /* Localizable.strings in Resources */,
-				A9A58C3B1523592A00CC747B /* Localizable.strings in Resources */,
 				A9A58C3E1523592A00CC747B /* icon.png in Resources */,
 				A9A58C401523592A00CC747B /* icon@2x.png in Resources */,
 				A9A58C421523592A00CC747B /* icon-72.png in Resources */,
@@ -390,7 +352,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A9A58C241523592A00CC747B /* en */,
-				A9A58C801525B36100CC747B /* nl */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -399,32 +360,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				A9A58C2E1523592A00CC747B /* en */,
-				A9A58C7D1525B36100CC747B /* nl */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		A9A58C311523592A00CC747B /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9A58C7F1525B36100CC747B /* nl */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		A9A58C351523592A00CC747B /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9A58C361523592A00CC747B /* de */,
-				A9A58C7E1525B36100CC747B /* nl */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-		A9A58C391523592A00CC747B /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9A58C7C1525B36100CC747B /* nl */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
