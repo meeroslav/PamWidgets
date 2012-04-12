@@ -698,7 +698,18 @@ input.ui-input-text, .ui-input-search {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #81A8CE), color-stop(1, #5E87B0));
 }
 
-.valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus {
+.pamGraphWidget .toolBar .toolButton  {
+    width: 100px;
+}
+
+.pamGraphWidget .toolBar .toolButton span.toolBarImage {
+    margin-left: 32px;
+}
+
+.valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus,
+.currentValueWidget .valuePanel .valueBox {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
     background-color: white;
     height: 53px;
     line-height: 48px;
@@ -711,6 +722,34 @@ input.ui-input-text, .ui-input-search {
     color: #4c596e;
     font-size: 48px;
     text-align: right;
+}
+
+.currentValueWidget .valuePanel .notificationPanel {
+    background-color: #4C596A;
+}
+
+.currentValueWidget .valuePanel .notificationPanel div {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.currentValueWidget .valuePanel .notificationPanel button {
+    padding: 5px 10px;
+}
+
+.currentValueWidget .valuePanel .notificationPanel button,
+.currentValueWidget .valuePanel .notificationPanel button:active,
+.currentValueWidget .valuePanel .notificationPanel button:focus {
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #376fd4),
+        color-stop(0.5, #417fe7),
+        color-stop(0.49, #4c88e9),
+        color-stop(1, #73a8fb)
+    );
+    margin-top: 0;
 }
 
 .holderPanel {
@@ -732,7 +771,8 @@ input.ui-input-text, .ui-input-search {
         width: 740px;
     }
 
-    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus {
+    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus,
+    .currentValueWidget .valuePanel .valueBox{
         width: 330px;
     }
 
@@ -748,6 +788,11 @@ input.ui-input-text, .ui-input-search {
     .currentValueWidget .valuePanel {
         width: 352.5px;
     }
+
+    .currentValueWidget .valuePanel .notificationPanel div {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
 }
 
 @media only screen and (orientation:landscape) {
@@ -759,7 +804,8 @@ input.ui-input-text, .ui-input-search {
         width: 994px;
     }
 
-    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus {
+    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus,
+    .currentValueWidget .valuePanel .valueBox {
         width: 460px;
     }
 

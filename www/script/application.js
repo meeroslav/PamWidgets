@@ -33,6 +33,7 @@ var PamSettings = {
         "holderId":"adviceFrame"
     }
 };
+var login_message = "Invalid username or password.";
 /********* FUNCTIONS ************/
 function onBodyLoad()
 {
@@ -40,8 +41,7 @@ function onBodyLoad()
     window.addEventListener("orientationchange", checkOrientation, false);
 }
 
-function onDeviceReady()
-{
+function onDeviceReady() {
     if (window.localStorage.getItem("serial_number") != null){
         $("#username").val(window.localStorage.getItem("username"));
         PamSettings.serial = window.localStorage.getItem("serial_number").toString();
@@ -61,6 +61,10 @@ function checkOrientation(){
       if (window.localStorage.getItem("serial_number") != null)
         pamRedraw();
   }
+    
+    if ((screen.width==320) && (screen.height==480)) {
+        PamSettings.PamGraphWidget.marginRight = 0;
+    }
 }
 
 function submitWithAjax(){
@@ -78,13 +82,13 @@ function submitWithAjax(){
             jsonpCallback: 'loginCallback'
         });
     } else {
-        navigator.notification.alert("Invalid username or password.", clearStorage);
+        navigator.notification.alert(login_message.toString(), clearStorage);
     }
 }
 
 function loginCallback(data){
     if (data.invalid != null){
-        navigator.notification.alert("Invalid username or password.");
+        navigator.notification.alert(login_message.toString());
     } else {
         var langValue = $("input:radio['name=r']:checked").val();
         window.localStorage.setItem("serial_number", data.serial);
@@ -106,9 +110,10 @@ function clearStorage(){
 function translateApplication(language){
     var langObj = eval("translations_" + language);
     if (langObj != null){
+        login_message = langObj.mobile_invalidlogin;
         $("#mobile_savesettings span.ui-btn-text").text(langObj.mobile_savesettings);
         $("#mobile_cleardata span.ui-btn-text").text(langObj.mobile_cleardata);
-        $("#mobile_language").text(langObj.mobile_language + ":");
+        /** $("#mobile_language").text(langObj.mobile_language + ":"); **/
         $("#mobile_appsettings").text(langObj.mobile_appsettings);
         $("#mobile_useraccount").text(langObj.mobile_useraccount);
         $("#mobile_username").text(langObj.mobile_username);
@@ -116,13 +121,22 @@ function translateApplication(language){
         $("a[href='#graph'] span.ui-btn-text").each(function(){
             $(this).text(langObj.mobile_pamgraph);
         });
-        $("a[href='#activities'] span.ui-btn-text").each(function(){
-            $(this).text(langObj.mobile_pamadvice);
+        $("a[href='#graph'] span.ui-btn-text").each(function(){
+            $(this).text(langObj.mobile_pamgraph);
         });
         $("a[href='#settings'] span.ui-btn-text").each(function(){
             $(this).text(langObj.mobile_settings);
         });
         $("#mobile_settings").text(langObj.mobile_settings);
-
+        $("a[data-rel='back'] span.ui-btn-text").text(langObj.mobile_back);
+        $("div.ui-field-contain.ui-body.ui-br div.ui-controlgroup-label").text(langObj.mobile_language);
     }
 }
+
+
+
+
+
+
+
+

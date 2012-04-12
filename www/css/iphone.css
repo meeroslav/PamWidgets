@@ -761,7 +761,10 @@ input.ui-input-text, .ui-input-search {
         margin-top: 10px;
     }
 
-    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus {
+    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus,
+    .currentValueWidget .valuePanel .valueBox {
+        border-radius: 100px;
+        -webkit-border-radius: 100px;
         background-color: white;
         height: 30px;
         width: 110px;
@@ -775,6 +778,35 @@ input.ui-input-text, .ui-input-search {
         color: #4c596e;
         font-size: 28px;
         text-align: center;
+    }
+
+    .currentValueWidget .valuePanel .notificationPanel {
+        background-color: #4C596A;
+    }
+
+    .currentValueWidget .valuePanel .notificationPanel div {
+        font-size: 12px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .currentValueWidget .valuePanel .notificationPanel button {
+        padding: 1px 2px;
+    }
+
+    .currentValueWidget .valuePanel .notificationPanel button,
+    .currentValueWidget .valuePanel .notificationPanel button:active,
+    .currentValueWidget .valuePanel .notificationPanel button:focus {
+        background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #376fd4),
+            color-stop(0.5, #417fe7),
+            color-stop(0.49, #4c88e9),
+            color-stop(1, #73a8fb)
+        );
+        margin-top: 0;
     }
 
     #settings form>div {
@@ -823,6 +855,21 @@ input.ui-input-text, .ui-input-search {
         width: 70px;
     }
 
+    .barGraph {
+        padding: 5px 5px 5px 0;
+    }
+
+    .adviceWidget .livingPanel div:first-child {
+        background: url("images/icon_advice_living_small.png") no-repeat scroll left top transparent;
+    }
+
+    .adviceWidget .healthPanel div:first-child {
+        background: url("images/icon_advice_health_small.png") no-repeat scroll left top transparent;
+    }
+
+    .adviceWidget .sportPanel div:first-child {
+        background: url("images/icon_advice_sport_small.png") no-repeat scroll left top transparent;
+    }
 
 @media only screen and (orientation:portrait) {
 
@@ -836,8 +883,8 @@ input.ui-input-text, .ui-input-search {
     }
 
     .barGraph {
-        height: 250px;
-        width: 280px;
+        height: 260px;
+        width: 295px;
     }
 
     .adviceWidget .livingPanel, .adviceWidget .healthPanel, .adviceWidget .sportPanel {
@@ -847,20 +894,25 @@ input.ui-input-text, .ui-input-search {
     }
 
     .adviceWidget .livingPanel div:first-child, .adviceWidget .healthPanel div:first-child, .adviceWidget .sportPanel div:first-child {
-        height: 25px;
+        height: 15px;
         padding-left: 0;
         text-align: center;
-        padding-top: 65px;
+        padding-top: 45px;
         background-position: top center;
     }
 
     .advicePanel {
-        padding: 5px 0;
+        padding: 0;
+    }
+
+    .adviceDescription {
+        height: 45px;
+        vertical-align: middle;
     }
 
     .currentValueWidget .valuePanel {
         width: 132px;
-        height: 70px;
+        height: 80px;
         margin: 5px 0;
     }
 
@@ -869,7 +921,7 @@ input.ui-input-text, .ui-input-search {
     }
 
     .currentValueWidget .valuePanel .valueBox {
-        width: 132px;
+        width: 110px;
     }
 
     .currentValueWidget .valuePanel .value {
@@ -878,12 +930,12 @@ input.ui-input-text, .ui-input-search {
     }
 
     .ui-field-contain label.ui-input-text {
-        width: 90px;
+        width: 120px;
         margin: 0;
     }
 
     .ui-field-contain input.ui-input-text {
-        width: 180px;
+        width: 145px;
         margin: 0;
     }
 
@@ -912,8 +964,8 @@ input.ui-input-text, .ui-input-search {
     }
 
     .barGraph {
-        height: 120px;
-        width: 450px;
+        height: 130px;
+        width: 465px;
         margin: 5px;
     }
 
@@ -966,10 +1018,12 @@ input.ui-input-text, .ui-input-search {
         height: 30px;
         padding-left: 50px;
         margin-bottom: 0;
+        margin-right: 10px;
     }
 
     .adviceDescription {
-        height: 15px;
+        height: 30px;
+        vertical-align: middle;
     }
 
     .currentValueWidget .valuePanel {
@@ -989,7 +1043,13 @@ input.ui-input-text, .ui-input-search {
         margin: 0;
     }
 
-    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus {
+    .ui-field-contain label.ui-input-text,
+    .ui-field-contain div.ui-controlgroup-label {
+        width: 120px;
+    }
+
+    .valueBox.ui-input-text.ui-body-c.ui-corner-all.ui-shadow-inset.ui-focus,
+    .currentValueWidget .valuePanel .valueBox {
         width: 190px;
         text-align: right;
         padding: 0 5px;
@@ -997,7 +1057,7 @@ input.ui-input-text, .ui-input-search {
     }
 
     #settings form>div {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .ui-field-contain .ui-controlgroup-controls {
@@ -1006,5 +1066,31 @@ input.ui-input-text, .ui-input-search {
 
     .ui-controlgroup-horizontal .ui-radio .ui-btn-inner {
         padding: 0.2em 1.1em 0.4em !important;
+    }
+
+    .ui-content div h3 {
+        margin: 0 0 10px;
+        border: medium none;
+    }
+
+    .ui-page:not(.ui-dialog) .ui-content .ui-btn:not(.ui-slider-handle):not(label):not(li):not(.ui-btn-left):not(.ui-btn-right):not(.ui-input-clear) .ui-btn-inner {
+        padding: 0.5em 25px!important;
+        /*width: 155px;*/
+        margin: 0;
+    }
+
+    .ui-page:not(.ui-dialog) .ui-content .ui-btn:not(.ui-slider-handle):not(label):not(li):not(.ui-btn-left):not(.ui-btn-right):not(.ui-input-clear) {
+        /*width: 210px;*/
+        /*float: left;*/
+    }
+
+    .ui-btn.ui-btn-corner-all.ui-shadow.ui-btn-up-b {
+        margin-top: 0.5em;
+    }
+
+    .adviceWidget .livingPanel div:first-child,
+    .adviceWidget .healthPanel div:first-child,
+    .adviceWidget .sportPanel div:first-child {
+        background-position: 5px 5px;
     }
 }

@@ -74,5 +74,9 @@ var translations_en = {
     mobile_cleardata: "Clear data",
     mobile_settings: "Settings",
     mobile_pamgraph: "Pam Graph",
-    mobile_pamadvice: "Pam Advice"
+    mobile_pamadvice: "Pam Advice",
+    mobile_back: "Back",
+    invalid_result:"invalid result",
+    server_unreachable:"server unreachable",
+    mobile_invalidlogin: "Invalid username or password."
 };

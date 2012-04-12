@@ -23,40 +23,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="select_unit.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/images/select_unit.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="select_unit_h.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/images/select_unit_h.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tabSprite.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/images/tabSprite.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iphone.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="iphone.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/iphone.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="984" column="0" selection-start="23361" selection-end="23361" vertical-scroll-proportion="0.52807647">
+            <state line="1076" column="27" selection-start="25995" selection-end="25995" vertical-scroll-proportion="-87.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PamGraphWidget.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/PamGraphWidget.css">
+      <file leaf-file-name="ipad.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/ipad.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="794" column="5" selection-start="19831" selection-end="19831" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translations_DE.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/translations_DE.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="4" selection-start="2537" selection-end="2556" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translations_NL.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/translations_NL.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="23" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,7 +62,16 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="0" selection-start="3291" selection-end="3291" vertical-scroll-proportion="0.0">
+            <state line="108" column="0" selection-start="3509" selection-end="3509" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translations_EN.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/script/translations_EN.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="47" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.8924731">
               <folding />
             </state>
           </provider>
@@ -74,23 +80,9 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="26" selection-start="2017" selection-end="2017" vertical-scroll-proportion="0.0">
+            <state line="81" column="72" selection-start="4315" selection-end="4315" vertical-scroll-proportion="-19.5">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tiling_stripes.gif" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/images/tiling_stripes.gif">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toolbar_icons.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/images/toolbar_icons.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -112,14 +104,17 @@
         <option value="$PROJECT_DIR$/css/CurrentValueWidget.css" />
         <option value="$PROJECT_DIR$/css/AdviceWidget.css" />
         <option value="$PROJECT_DIR$/PamUI/gwt/standard/standard.css" />
-        <option value="$PROJECT_DIR$/script/translations_NL.js" />
-        <option value="$PROJECT_DIR$/script/translations_DE.js" />
-        <option value="$PROJECT_DIR$/script/translations_EN.js" />
         <option value="$PROJECT_DIR$/css/PamGraphWidget.css" />
+        <option value="$USER_HOME$/Desktop/untitled folder/index.html" />
+        <option value="$USER_HOME$/Desktop/Pam Test/css/iphone.css" />
         <option value="$PROJECT_DIR$/css/ipad.css" />
-        <option value="$PROJECT_DIR$/script/application.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$USER_HOME$/Desktop/Pam Test/index.html" />
         <option value="$PROJECT_DIR$/css/iphone.css" />
+        <option value="$PROJECT_DIR$/script/translations_DE.js" />
+        <option value="$PROJECT_DIR$/script/translations_NL.js" />
+        <option value="$PROJECT_DIR$/script/translations_EN.js" />
+        <option value="$PROJECT_DIR$/script/application.js" />
       </list>
     </option>
   </component>
@@ -150,7 +145,6 @@
     </navigator>
     <panes>
       <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,6 +207,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,6 +216,11 @@
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -263,21 +263,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="984" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2362373" sideWeight="0.99038464" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24799572" sideWeight="0.6709007" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -326,42 +326,17 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/images/loading_animation.gif">
+    <entry file="file://$PROJECT_DIR$/css/images/icon_advice_sport.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/next.png">
+    <entry file="file://$PROJECT_DIR$/css/images/icon_advice_living.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/next_h.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/prev.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/prev_h.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/ipad.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="708" column="4" selection-start="17863" selection-end="17905" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/select_unit.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/select_unit_h.png">
+    <entry file="file://$PROJECT_DIR$/css/images/icon_advice_health.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -371,36 +346,84 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/iphone.css">
+    <entry file="file://$USER_HOME$/Desktop/Pam Test/css/iphone.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="984" column="0" selection-start="23361" selection-end="23361" vertical-scroll-proportion="0.52807647">
+        <state line="944" column="5" selection-start="23201" selection-end="23201" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/Holder.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PamUI/1692EF70236D9CC8A3E6CC6C26BC7F47.cache.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2103" column="2523" selection-start="206904" selection-end="206904" vertical-scroll-proportion="0.5805825">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/PamGraphWidget.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="294" column="20" selection-start="8400" selection-end="8400" vertical-scroll-proportion="1.9866921">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/application.js">
+    <entry file="file://$PROJECT_DIR$/css/ipad.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="3291" selection-end="3291" vertical-scroll-proportion="0.0" />
+        <state line="794" column="5" selection-start="19831" selection-end="19831" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Pam Test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="717" selection-end="717" vertical-scroll-proportion="0.29520294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/iphone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1076" column="27" selection-start="25995" selection-end="25995" vertical-scroll-proportion="-87.5">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="26" selection-start="2017" selection-end="2017" vertical-scroll-proportion="0.0" />
+        <state line="81" column="72" selection-start="4315" selection-end="4315" vertical-scroll-proportion="-19.5">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/tiling_stripes.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/script/translations_DE.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="4" selection-start="2537" selection-end="2556" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/toolbar_icons.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/script/translations_NL.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="23" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="0" selection-start="3509" selection-end="3509" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/translations_EN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="47" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.8924731">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

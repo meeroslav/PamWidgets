@@ -7,7 +7,7 @@ var translations_nl = {
     living_zone : "Leefzone",
     health_zone : "Gezondzone",
     sport_zone : "Sportzone",
-    calories : "Calorie�n",
+    calories : "Calorieën",
     fruits : "Fruit",
     weight : "Gewicht",
     goal : "Doel",
@@ -59,7 +59,7 @@ var translations_nl = {
     activity_text: "- %s %s %s %s",
     per_day: "per dag",
     weekly: "per week",
-    advice_heading:"Om je doel te bereiken kun je ��n van je favoriete activiteiten doen",
+    advice_heading:"Om je doel te bereiken kun je één van je favoriete activiteiten doen",
     current_value: "Huidige ",
     current_goal: "Huidige doel",
     click_to_edit: "Klik om je gewicht te veranderen!",
@@ -74,5 +74,9 @@ var translations_nl = {
     mobile_cleardata: "Gegevens wissen",
     mobile_settings: "Instellingen",
     mobile_pamgraph: "Pam Grafiek",
-    mobile_pamadvice: "Pam Advies"
+    mobile_pamadvice: "Pam Advies",
+    mobile_back: "Terug",
+    invalid_result:"ongeldig resultaat",
+    server_unreachable:"server onbereikbaar",
+    mobile_invalidlogin:"Ongeldige gebruikersnaam of wachtwoord."
 };
