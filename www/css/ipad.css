@@ -762,6 +762,20 @@ input.ui-input-text, .ui-input-search {
     height: 56px;
 }
 
+.holderPanel {
+    overflow-x: hidden;
+    padding: 15px;
+    margin: -15px;
+}
+
+div {
+    -webkit-backface-visibility: hidden;
+}
+
+.pamGraphWidget.pamWidget .toolBar .toolButton.iconFruits {
+    display: none;
+}
+
 @media only screen and (orientation:portrait) {
     .pamGraphWidget {
         width: 770px;
@@ -793,12 +807,17 @@ input.ui-input-text, .ui-input-search {
         padding-top: 10px;
         padding-bottom: 5px;
     }
+
+    .holderPanel {
+        width: 768px;
+    }
 }
 
 @media only screen and (orientation:landscape) {
     .pamGraphWidget {
         width: 1024px;
         margin: -20px;
+        -webkit-backface-visibility: hidden;
     }
     .adviceWidget, .currentValueWidget {
         width: 994px;
@@ -820,5 +839,9 @@ input.ui-input-text, .ui-input-search {
 
     .currentValueWidget .valuePanel {
         width: 479.5px;
+    }
+
+    .holderPanel {
+        width: 1024px;
     }
 }

@@ -53,14 +53,16 @@ function onDeviceReady() {
         $('#cancel_settings').hide();
         $.mobile.changePage($("#settings"),{transition: "pop"});
     }
+
+    $('#graph').bind('pageshow', pamRedraw);
 }
 
 function checkOrientation(){
-  if (window.orientation != previousOrientation){
-      previousOrientation = window.orientation;
-      if (window.localStorage.getItem("serial_number") != null)
-        pamRedraw();
-  }
+    if (window.orientation != previousOrientation){
+        previousOrientation = window.orientation;
+        if (window.localStorage.getItem("serial_number") != null)
+            pamRedraw();
+    }
     
     if ((screen.width==320) && (screen.height==480)) {
         PamSettings.PamGraphWidget.marginRight = 0;
@@ -132,6 +134,8 @@ function translateApplication(language){
         $("div.ui-field-contain.ui-body.ui-br div.ui-controlgroup-label").text(langObj.mobile_language);
     }
 }
+
+
 
 
 

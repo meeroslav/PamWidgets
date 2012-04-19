@@ -26,7 +26,7 @@
       <file leaf-file-name="iphone.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/iphone.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1076" column="27" selection-start="25995" selection-end="25995" vertical-scroll-proportion="-87.5">
+            <state line="878" column="21" selection-start="21859" selection-end="21859" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="ipad.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/ipad.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="794" column="5" selection-start="19831" selection-end="19831" vertical-scroll-proportion="0.0">
+            <state line="775" column="17" selection-start="19315" selection-end="19315" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="translations_DE.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/translations_DE.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="4" selection-start="2537" selection-end="2556" vertical-scroll-proportion="0.0">
+            <state line="72" column="4" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,19 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="0" selection-start="3509" selection-end="3509" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="translations_EN.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script/translations_EN.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="47" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.8924731">
+            <state line="64" column="5" selection-start="2021" selection-end="2021" vertical-scroll-proportion="0.734767">
               <folding />
             </state>
           </provider>
@@ -80,7 +71,25 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="72" selection-start="4315" selection-end="4315" vertical-scroll-proportion="-19.5">
+            <state line="58" column="91" selection-start="2909" selection-end="2933" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iOSTheme.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/iOSTheme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="364" column="2" selection-start="9111" selection-end="9111" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translations_EN.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/translations_EN.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="4" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,14 +116,15 @@
         <option value="$PROJECT_DIR$/css/PamGraphWidget.css" />
         <option value="$USER_HOME$/Desktop/untitled folder/index.html" />
         <option value="$USER_HOME$/Desktop/Pam Test/css/iphone.css" />
-        <option value="$PROJECT_DIR$/css/ipad.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$USER_HOME$/Desktop/Pam Test/index.html" />
-        <option value="$PROJECT_DIR$/css/iphone.css" />
         <option value="$PROJECT_DIR$/script/translations_DE.js" />
         <option value="$PROJECT_DIR$/script/translations_NL.js" />
         <option value="$PROJECT_DIR$/script/translations_EN.js" />
+        <option value="$PROJECT_DIR$/script/jquery.mobile-1.0.1.min.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script/application.js" />
+        <option value="$USER_HOME$/Desktop/Pam Test/index.html" />
+        <option value="$PROJECT_DIR$/css/iphone.css" />
+        <option value="$PROJECT_DIR$/css/ipad.css" />
       </list>
     </option>
   </component>
@@ -174,34 +184,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PamUI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,16 +250,16 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24799572" sideWeight="0.6709007" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2544094" sideWeight="0.6709007" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -326,83 +308,80 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/images/icon_advice_sport.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/icon_advice_living.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/icon_advice_health.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/images/tabSprite.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Pam Test/css/iphone.css">
+    <entry file="file://$PROJECT_DIR$/css/PamGraphWidget.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="944" column="5" selection-start="23201" selection-end="23201" vertical-scroll-proportion="0.0" />
+        <state line="294" column="20" selection-start="8400" selection-end="8400" vertical-scroll-proportion="1.9866921" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/Holder.css">
+    <entry file="file://$PROJECT_DIR$/script/jquery.mobile-1.0.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="59" column="52" selection-start="28089" selection-end="28089" vertical-scroll-proportion="0.21804512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PamUI/55A3E047D41EC0B401F3020AA7508E6B.cache.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1282" column="20" selection-start="34404" selection-end="34404" vertical-scroll-proportion="-9.182052" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PamUI/4698AF300F0FD26E8B39ACDF2C4FA191.cache.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1276" column="20" selection-start="34475" selection-end="34475" vertical-scroll-proportion="0.22179487" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PamUI/1692EF70236D9CC8A3E6CC6C26BC7F47.cache.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2103" column="2523" selection-start="206904" selection-end="206904" vertical-scroll-proportion="0.5805825">
+        <state line="1285" column="20" selection-start="34177" selection-end="34177" vertical-scroll-proportion="0.22375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/jquery-1.6.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2584" selection-start="35061" selection-end="35061" vertical-scroll-proportion="0.03640777" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/cordova-1.5.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3462" column="57" selection-start="106398" selection-end="106398" vertical-scroll-proportion="-3.3106332" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Pam Test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="84" selection-start="280" selection-end="280" vertical-scroll-proportion="0.14760147" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/translations_DE.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="4" selection-start="2239" selection-end="2239" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="91" selection-start="2909" selection-end="2933" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/PamGraphWidget.css">
+    <entry file="file://$PROJECT_DIR$/css/iOSTheme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="294" column="20" selection-start="8400" selection-end="8400" vertical-scroll-proportion="1.9866921">
+        <state line="364" column="2" selection-start="9111" selection-end="9111" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/iphone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="878" column="21" selection-start="21859" selection-end="21859" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/ipad.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="794" column="5" selection-start="19831" selection-end="19831" vertical-scroll-proportion="0.0">
+        <state line="775" column="17" selection-start="19315" selection-end="19315" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Pam Test/index.html">
+    <entry file="file://$PROJECT_DIR$/script/translations_EN.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="717" selection-end="717" vertical-scroll-proportion="0.29520294">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/iphone.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1076" column="27" selection-start="25995" selection-end="25995" vertical-scroll-proportion="-87.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="72" selection-start="4315" selection-end="4315" vertical-scroll-proportion="-19.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/translations_DE.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="4" selection-start="2537" selection-end="2556" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="72" column="4" selection-start="2166" selection-end="2166" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/translations_NL.js">
@@ -414,14 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="0" selection-start="3509" selection-end="3509" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script/translations_EN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="47" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.8924731">
+        <state line="64" column="5" selection-start="2021" selection-end="2021" vertical-scroll-proportion="0.734767">
           <folding />
         </state>
       </provider>

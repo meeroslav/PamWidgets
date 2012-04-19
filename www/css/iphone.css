@@ -871,6 +871,14 @@ input.ui-input-text, .ui-input-search {
         background: url("images/icon_advice_sport_small.png") no-repeat scroll left top transparent;
     }
 
+    div {
+        -webkit-backface-visibility: hidden;
+    }
+
+    .pamGraphWidget.pamWidget .toolBar .toolButton.iconFruits {
+        display: none;
+    }
+
 @media only screen and (orientation:portrait) {
 
     .pamGraphWidget {
